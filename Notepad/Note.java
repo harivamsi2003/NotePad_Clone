@@ -15,7 +15,7 @@ public class Note implements ActionListener{
 	JTextField i2;
 	JTextField i3;
 	JFrame box;
-	JButton b1,b2,b3;
+	JButton b1,b2;
 	JLabel l1,l2;
 	String filename,fileaddress;
 	String s;
@@ -44,7 +44,6 @@ public class Note implements ActionListener{
 		b2.addActionListener(this);
 		box.add(b1);
 		box.add(b2);
-		box.add(b3);
 		box.setLayout(null);
 		box.setVisible(true);
 	}
